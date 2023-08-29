@@ -1,62 +1,19 @@
-::-webkit-scrollbar {
-    width: .4em;
-    height: .4em;
+.bg-secondary {
+    background: #2c3e50 !important;
 }
 
-::-webkit-scrollbar-thumb {
-    background: #a0a0a0;
-    border-radius: 2px;
-    height: 0;
-    width: .25em;
+.copyright {
+    background: #1a252f !important;
 }
 
-::-webkit-scrollbar-thumb:hover {
-    transition: ease .4s
+.bg-primary {
+    background: #1abc9c !important;
 }
 
-html {
-    scroll-behavior: auto;
+nav {
+    font-weight: 700;
 }
-
-.card {
-    margin: 8px auto;
-}
-
-.btn {
-    border-radius: 6px !important;
-}
-
-.form-control, .rounded, .card {
-    border-radius: 8px !important;
-}
-
-.form-control {
-    transition: cubic-bezier(0.165, 0.84, 0.44, 1) .5s;
-}
-
-.form-control:hover,
-.form-control:focus,
-.form-control:active,
-.navbar-toggler,
-.navbar-toggler:focus,
-.form-check-input:active,
-.form-check-input:focus,
-.form-check-input:hover {
-    outline: none;
-    box-shadow: none;
-    border-color: var(--bs-success);
-    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.3s;
-}
-
-.form-check-input:checked {
-    background-color: var(--bs-success);
-    border-color: var(--bs-success);
-}
-
-.ratio.input-fix {
-    position: static;
-}
-
-.ratio.input-fix::before {
-    z-index: 0;
+.img-card {
+    height: 18vh;
+    object-fit: cover;
 }
